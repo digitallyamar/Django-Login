@@ -29,3 +29,8 @@ A simple repo to provide Registration, Login &amp; Logout functions for Django A
         - Add entries to INSTALLED_APPS in settings.py with values:
             'accounts',
             'crispy_forms',
+
+
+# Step 3: Add support for login and logout functionality
+
+        - We will include logout link as part of the nav bar which will get enabled only if a user has logged in.
